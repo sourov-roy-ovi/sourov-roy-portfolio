@@ -1,0 +1,185 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+/* Hearder */
+
+.header {
+    background-image: url("../sourov-roy-portfolio/images/developer.png"), url('../sourov-roy-portfolio/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left, bottom right;
+}
+
+
+/* Nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 232px 0 226px;
+}
+
+
+/* Shared style */
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border-radius: 5px;
+    opacity: 100%;
+}
+
+.bg-style {
+    background-color: #FFF8F3;
+}
+
+.about-head {
+    color: #181818;
+    max-width: 827px;
+    height: 48;
+    padding-left: 90px;
+    font-size: 35px;
+    font-weight: 800;
+    opacity: 100%;
+    text-align: center;
+}
+
+.about-description {
+    max-width: 827px;
+    height: 120px;
+    padding-left: 90px;
+    font-size: 18px;
+    color: #474747;
+    text-align: center;
+}
+
+
+/* Navigation Styles */
+
+.nav-font-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-greetings {
+    width: 177px;
+    height: 61px;
+    font-weight: 600;
+    font-size: 45px;
+    opacity: 100%;
+}
+
+.banner-title {
+    width: 498px;
+    height: 116px;
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.banner-description {
+    width: 585px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dwn-style {
+    width: 200px;
+    height: 64px;
+}
+
+.btw-contact {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 22px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.img-profile {
+    height: 800px;
+    width: 551px;
+    margin-right: 100px;
+}
+
+
+/* Main Style */
+
+main {
+    max-width: 1440px;
+    max-height: 550px;
+    margin: 0 auto;
+}
+
+
+/* Section-style */
+
+.about {
+    padding: 131px 156px;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.item-title {}
+
+.item-description {
+    font-weight: 700;
+}
