@@ -183,3 +183,79 @@ main {
 .item-description {
     font-weight: 700;
 }
+
+
+/* What is do Section style */
+
+.skill-container {
+    display: flex;
+    gap: 24PX;
+}
+
+.skills {
+    padding: 131px 156px;
+    /* margin-top: 130px; */
+}
+
+.skill {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin: 15px;
+}
+
+.skill-description {
+    padding: 0px 23px 20px 20px;
+}
+
+
+/* Resume Section */
+
+.resume-section {
+    padding: 131px 156px;
+}
+
+.resume-titile {
+    text-align: center;
+    color: #181818;
+    margin-top: 10px;
+}
+
+.summary-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.summary-card-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #474747;
+}
+
+.course-type,
+.designation {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.institute,
+.company {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.edu-description,
+.ex-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
