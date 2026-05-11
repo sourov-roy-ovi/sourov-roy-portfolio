@@ -160,7 +160,7 @@ nav ul {
 
 main {
     max-width: 1440px;
-    max-height: 550px;
+    /* max-height: 550px; */
     margin: 0 auto;
 }
 
@@ -258,4 +258,82 @@ main {
 .resume-btn {
     text-align: center;
     margin-top: 50px;
+}
+
+
+/* Footer Section */
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+    justify-content: center;
+    padding: 130px 230px;
+}
+
+.contacr-info,
+.message-form {
+    flex: 1;
+}
+
+.contacr-info h2,
+.message-form h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.contacr-info h2 {
+    height: 48px;
+    width: 227px;
+    color: #181818;
+}
+
+.contacr-info p {
+    font-size: 16px;
+    width: 562px;
+    height: 56px;
+    color: #474747;
+}
+
+.message-form h2 {
+    width: 305px;
+    height: 48px;
+    color: #181818;
+}
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 28px;
+}
+
+.input-name,
+.input-email {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+}
+
+.input-message {
+    width: 461px;
+    height: 180px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-left: 30px;
+    display: block;
+    vertical-align: top;
+}
+
+.submit-btn {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
 }
